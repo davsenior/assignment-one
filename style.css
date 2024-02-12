@@ -1,0 +1,60 @@
+/*
+Theme Name: Assignment One
+Description: This is my custom theme for Assignment One.
+Author: David Senior
+Author URI: https://wordpress.org/
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.0
+*/
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: skyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: skyblue;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
